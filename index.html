@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="css/cursor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <title>Krishna - Portfolio</title>
+</head>
+
+<body>
+    <div class="main-bg">
+        <div class="main-bg-img"></div>
+    </div>
+
+    <header class="header">
+        <div class="header-content d-flex flex-column flex-lg-row align-items-center gap-4">
+            <div class="d-flex align-items-center justify-content-between gap-3">
+                <div class="avatar">
+                    <img class="img-fluid" src="./img/1.jpg" alt="">
+                    <p class="available-txt">
+                        Available for work
+                        <span class="pulse-animation"></span>
+                    </p>
+                </div>
+
+                <a class="status-link btn d-block d-md-none" href="#">Available for work</a>
+
+                <button class="nav-toggler d-flex d-md-none btn">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="nav-links">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                        <a href="#" class="nav-link nav-link-hover">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                        <a href="#" class="nav-link nav-link-hover">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Projects</a>
+                        <a href="#" class="nav-link nav-link-hover">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Blogs</a>
+                        <a href="#" class="nav-link nav-link-hover">Blogs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-btn">
+                <a href="#" class="btn custom-btn" data-cursor-stick="element">
+                    <span class="position-relative">Contact</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner-section">
+        <div class="container">
+            <div class="banner-content position-relative">
+                <div class="banner-content-left">
+                    <div>
+                        <h5 class="banner-title-sm">Krishna Vachhani</h5>
+                        <h1 class="banner-title">UI/UX</h1>
+                    </div>
+                </div>
+                <div class="banner-thumb d-lg-none">
+                    <div class="banner-thumb-move">
+                        <div class="banner-thumb-inner">
+                            <div class="banner-thumb-front">
+                                <img src="./img/1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-thumb banner-desk d-none d-lg-block">
+                    <div class="banner-thumb-move"> <!-- NEW -->
+                        <div class="banner-thumb-inner">
+                            <div class="banner-thumb-front">
+                                <img src="./img/1.jpg" alt="">
+                            </div>
+                            <div class="banner-thumb-back">
+                                <img src="./img/banner-2.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-content-right">
+                    <div>
+                        <h1 class="banner-title">Designer</h1>
+                        <h5 class="banner-title-desc text-end">I'm a India-based UI/UX designer and</h5>
+                        <h5 class="banner-title-desc text-end">Graphics developer</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="service-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="section-heading-wrapper">
+                            <h4 class="section-title">What I can do for you</h4>
+                            <p class="section-desc">
+                                As a UI/UX designer, I am a visual storyteller, crafting experiences that connect
+                                deeply and spark creativity.
+                            </p>
+                        </div>
+
+                        <div class="accordion accordion-flush accordion-service custom-accordion"
+                            id="service_accordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        <span>1.</span> ui/ux design
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#service_accordion">
+                                    <div class="accordion-body">
+                                        <ul class="service-sub-list">
+                                            <li>
+                                                <i class="fa-regular fa-circle-check"></i>
+                                                Wireframing and prototyping
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle-check"></i>
+                                                User Interface design for web and mobile apps
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle-check"></i>
+                                                Usability testing and user feedback analysis
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle-check"></i>
+                                                Interaction design and micro-animations
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        <span>2.</span> Graphic Design
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#service_accordion">
+                                    <div class="accordion-body">
+                                        <ul class="service-sub-list">
+                                            <li>
+                                                <i class="fa-regular fa-circle-check"></i>
+                                                Logo and brand identity design
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle-check"></i>
+                                                Social media graphics and ad creatives
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle-check"></i>
+                                                Infographics and data visualization
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle-check"></i>
+                                                Custom illustrations and icons
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        <span>3.</span> Web Design
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#service_accordion">
+                                    <div class="accordion-body">
+                                        <ul class="service-sub-list">
+                                            <li>
+                                                <i class="fa-regular fa-circle-check"></i>
+                                                Responsive website design
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle-check"></i>
+                                                Landing page design and optimization
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle-check"></i>
+                                                Webflow development and customization
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle-check"></i>
+                                                Website maintenance and updates
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                        aria-controls="flush-collapseFour">
+                                        <span>4.</span> Branding
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                    data-bs-parent="#service_accordion">
+                                    <div class="accordion-body">
+                                        <ul class="service-sub-list">
+                                            <li>
+                                                <i class="fa-regular fa-circle-check"></i>
+                                                Brand strategy and identity development
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle-check"></i>
+                                                Visual style guide creation
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle-check"></i>
+                                                Typography and color scheme selection
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle-check"></i>
+                                                Brand storytelling and messaging
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5">
+                        <div class="section-heading-wrapper">
+                            <h4 class="section-title">About me</h4>
+                            <p class="section-desc">
+                                Hi, I'm Krishna — a UI/UX designer and Graphics designer passionate about crafting
+                                meaningful and impactful digital experiences.
+                            </p>
+                        </div>
+
+                        <div class="about-content">
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-4 col-xl-4 mb-4">
+                                    <div class="count-block">
+                                        <h2 class="count"><span class="counter" data-target="2"></span></h2>
+                                        <p class="count-desc">Years of Experience</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-4 col-xl-4 mb-4">
+                                    <div class="count-block">
+                                        <h2 class="count"><span class="counter" data-target="50"></span></h2>
+                                        <p class="count-desc">Completed Projects</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-4 col-xl-4 mb-4">
+                                    <div class="count-block">
+                                        <h2 class="count"><span class="counter" data-target="12"></span>+</h2>
+                                        <p class="count-desc">Clients on Worldwide</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-12 col-lg-4 col-xl-6 col-xxl-4 mb-4">
+                                    <div class="contact-block">
+                                        <p class="contact-label mb-1">Call Today :</p>
+                                        <p class="contact-link">+91 XXXXX XXXXX</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-12 col-lg-4 col-xl-6 col-xxl-4 mb-4">
+                                    <div class="contact-block">
+                                        <p class="contact-label mb-1">Email :</p>
+                                        <p class="contact-link">XXXXXXXXX@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="social-box d-flex align-items-center gap-3">
+                                <a href="#" class="social-link">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fa-brands fa-behance"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fa-solid fa-basketball"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="project-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5">
+                    <div class="section-heading-wrapper">
+                        <h4 class="section-title">Featured Projects</h4>
+                        <p class="section-desc">
+                            These selected projects reflect my passion for blending strategy with creativity — solving
+                            real problems through thoughtful design and impactful storytelling.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-12">
+                    <div class="project-block" data-cursor-text="<i class='fa-solid fa-arrow-right text-dark'></i>">
+                        <img class="project-thumb" src="./img/project1.jpeg" alt="">
+                        <div class="project-content">
+                            <a class="btn custom-btn">Graphic Design</a>
+                            <h4 class="project-title">Summer Vibes Festival Campaign</h4>
+                            <p class="project-desc col-xl-8 text-center">Created promotional materials for the "Summer
+                                Vibes Festival," including posters, flyers, and social media graphics.</p>
+                        </div>
+                    </div>
+                    <div class="project-block" data-cursor-text="<i class='fa-solid fa-arrow-right text-dark'></i>">
+                        <img class="project-thumb" src="./img/project2.jpg" alt="">
+                        <div class="project-content">
+                            <a class="btn custom-btn">Branding</a>
+                            <h4 class="project-title">Coral Spiral Abstract</h4>
+                            <p class="project-desc col-xl-8 text-center">Description: A visually striking 3D abstract
+                                artwork featuring a coral-colored spiral form with smooth, flowing curves and a soft
+                                pink gradient background, emphasizing modern digital aesthetics and organic geometry.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-block" data-cursor-text="<i class='fa-solid fa-arrow-right text-dark'></i>">
+                        <img class="project-thumb" src="./img/project3.jpeg" alt="">
+                        <div class="project-content">
+                            <a class="btn custom-btn">Branding</a>
+                            <h4 class="project-title">Coral Spiral Abstract</h4>
+                            <p class="project-desc col-xl-8 text-center">Description: A visually striking 3D abstract
+                                artwork featuring a coral-colored spiral form with smooth, flowing curves and a soft
+                                pink gradient background, emphasizing modern digital aesthetics and organic geometry.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-block" data-cursor-text="<i class='fa-solid fa-arrow-right text-dark'></i>">
+                        <img class="project-thumb" src="./img/project4.jpeg" alt="">
+                        <div class="project-content">
+                            <a class="btn custom-btn">Branding</a>
+                            <h4 class="project-title">Coral Spiral Abstract</h4>
+                            <p class="project-desc col-xl-8 text-center">Description: A visually striking 3D abstract
+                                artwork featuring a coral-colored spiral form with smooth, flowing curves and a soft
+                                pink gradient background, emphasizing modern digital aesthetics and organic geometry.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5">
+                    <div class="section-heading-wrapper">
+                        <h4 class="section-title">What My Clients Say</h4>
+                        <p class="section-desc">
+                            Here’s what my clients have shared about their experiences working with me. Their trust and
+                            satisfaction motivate me to continue delivering designs that make an impact.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="testimonial-block">
+                        <div class="testimonial-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="testimonial-desc">
+                            Krishna truly understood my vision and turned it into impactful designs. The results went
+                            beyond my expectations!
+                        </p>
+                        <div class="author-details">
+                            <div class="avatar">
+                                <img src="./img/1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="author-content">
+                                <h5 class="author-name">John Harris</h5>
+                                <p class="author-role">Marketing Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="testimonial-block">
+                        <div class="testimonial-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="testimonial-desc">
+                            She took the time to understand our goals and delivered a design that resonated perfectly
+                            with our audience.
+                        </p>
+                        <div class="author-details">
+                            <div class="avatar">
+                                <img src="./img/1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="author-content">
+                                <h5 class="author-name">Michael Lee</h5>
+                                <p class="author-role">Product Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="testimonial-block satisfaction-rate-block">
+                        <p class="testimonial-desc">
+                            I’ve worked with 10+ happy clients
+                        </p>
+
+                        <div class="satisfaction-rate-details">
+                            <h5 class="satisfaction-rate"><span class="counter" data-target="97"></span>%</h5>
+                            <p class="satisfaction-rate-label">Satisfaction Rate</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="testimonial-block growth-rate-block">
+                        <p class="testimonial-desc">
+                            My work helped clients grow their revenue by 150%
+                        </p>
+                        
+                        <div class="growth-details">
+                            <h5 class="growth-rate"><span class="counter" data-target="150"></span>%</h5>
+                            <p class="growth-rate-label">Growth</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="testimonial-block">
+                        <div class="testimonial-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="testimonial-desc">
+                            Her design skills are unmatched. She transformed my ideas into a high-performing, visually
+                            striking website.
+                        </p>
+                        <div class="author-details">
+                            <div class="avatar">
+                                <img src="./img/1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="author-content">
+                                <h5 class="author-name">Sarah Johnson</h5>
+                                <p class="author-role">CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="testimonial-block">
+                        <div class="testimonial-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="testimonial-desc">
+                            As a small business owner, I appreciated how stress-free Krishna made the process.
+                        </p>
+                        <div class="author-details">
+                            <div class="avatar">
+                                <img src="./img/1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="author-content">
+                                <h5 class="author-name">Laura Bennett</h5>
+                                <p class="author-role">Small Business Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5">
+                    <div class="section-heading-wrapper mb-0 pe-xl-5">
+                        <h4 class="section-title">Frequently Asked Questions</h4>
+                        <p class="section-desc">
+                            Here are answers to some of the most common questions I receive as a freelance designer. If
+                            you don’t see your question here, feel free to reach out—I’m happy to help!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-7">
+                    <div class="accordion accordion-flush faq-service custom-accordion" id="faq_accordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    <span>1.</span> What services do you offer?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#faq_accordion">
+                                <div class="accordion-body">
+                                    <p>
+                                        I specialize in UI/UX design, branding, web design, and development. Whether you
+                                        need a complete website, a visual identity, or design consultation, I’m here to
+                                        help bring your ideas to life.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    <span>2.</span> How does the design process work?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#faq_accordion">
+                                <div class="accordion-body">
+                                    <p>
+                                        My process begins with discovery and planning, where I understand your goals and
+                                        audience. Then, I move on to concept creation, revisions based on your feedback,
+                                        and finalize with testing and delivery. It’s a collaborative process, and I keep
+                                        you updated every step of the way.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    <span>3.</span> How long does a project usually take?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#faq_accordion">
+                                <div class="accordion-body">
+                                    <p>
+                                        The timeline depends on the scope of the project. Smaller projects, like logo
+                                        design, may take 1-2 weeks, while larger projects, such as website design, can
+                                        take 4-6 weeks. I’ll provide a detailed timeline once we’ve discussed your
+                                        needs.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    <span>4.</span> What do I need to provide before starting a project?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#faq_accordion">
+                                <div class="accordion-body">
+                                    <p>
+                                        Typically, I’ll need information about your business, your goals, and any
+                                        branding assets you already have, like a logo or color palette. For web
+                                        projects, content like text and images will also be required. Don’t worry—I’ll
+                                        guide you through this step.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                    aria-controls="flush-collapseFive">
+                                    <span>5.</span> Do you offer revisions?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                data-bs-parent="#faq_accordion">
+                                <div class="accordion-body">
+                                    <p>
+                                        Yes, revisions are part of my process to ensure the final design meets your
+                                        expectations. I usually include 2-3 rounds of revisions depending on the
+                                        project. Additional revisions can be arranged if needed.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                    aria-controls="flush-collapseSix">
+                                    <span>6.</span> How do I get started?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                data-bs-parent="#faq_accordion">
+                                <div class="accordion-body">
+                                    <p>
+                                        Yes, revisions are part of my process to ensure the final design meets your
+                                        expectations. I usually include 2-3 rounds of revisions depending on the
+                                        project. Additional revisions can be arranged if needed.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="section-heading-wrapper">
+                        <h4 class="section-title">Design Insights & Ideas</h4>
+                        <p class="section-desc">
+                            From design trends to creative processes, these articles offer insights to help you elevate
+                            your craft, solve challenges, and spark new ideas for your projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 mb-5">
+                    <div class="blog-block">
+                        <div class="blog-thumb" data-cursor-text="<i class='fa-solid fa-arrow-right text-dark'></i>">
+                            <img src="./img/blog1.jpeg" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-timeline">
+                                <p class="blog-tag">Insights</p>
+                                <p class="blog-date">Apr 30, 2025</p>
+                            </div>
+                            <h5 class="blog-title">5 Design Trends That Will Define 2024</h5>
+                            <p class="blog-desc">Explore the top design trends for 2024 that will influence web, UI/UX,
+                                and branding projects, helping you stay ahead of the curve.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-5">
+                    <div class="blog-block">
+                        <div class="blog-thumb" data-cursor-text="<i class='fa-solid fa-arrow-right text-dark'></i>">
+                            <img src="./img/blog2.jpeg" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-timeline">
+                                <p class="blog-tag">Tutorials</p>
+                                <p class="blog-date">Apr 30, 2025</p>
+                            </div>
+                            <h5 class="blog-title">5 Design Trends That Will Define 2024</h5>
+                            <p class="blog-desc">Explore the top design trends for 2024 that will influence web, UI/UX,
+                                and branding projects, helping you stay ahead of the curve.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-5 col-xl-6 mb-5 mb-lg-0">
+                    <div class="contact-thumb-wrapper">
+                        <img class="contact-thumb" src="./img/1.jpg" alt="">
+                        <div class="hand-shake-animation">
+                            <div class="animation-wrapper">
+                                <h4 class="hi-txt">Hi</h4>
+                                <div class="hand-icon-wrapper">
+                                    <img width="64" src="./img/hand.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7 col-xl-6">
+                    <div class="section-heading-wrapper">
+                        <h4 class="section-title">Let's work together</h4>
+                        <p class="section-desc">
+                            Let’s build something impactful together—whether it’s your brand, your website, or your next
+                            big idea.
+                        </p>
+                    </div>
+                    <form class="form contact-form">
+                        <div class="row">
+                            <div class="col-xl-6 mb-3">
+                                <div class="form-group">
+                                    <label class="form-label" for="name">Name</label>
+                                    <input class="form-control" type="text" name="name" id="name"
+                                        placeholder="John Doe">
+                                </div>
+                            </div>
+                            <div class="col-xl-6 mb-3">
+                                <div class="form-group">
+                                    <label class="form-label" for="email">Email</label>
+                                    <input class="form-control" type="text" name="email" id="email"
+                                        placeholder="johndoe@gmail.com">
+                                </div>
+                            </div>
+                            <div class="col-xl-12 mb-3">
+                                <div class="form-group">
+                                    <label class="form-label" for="service">Service Needed ?</label>
+                                    <select class="form-select" name="service" id="service">
+                                        <option value="0">Select...</option>
+                                        <option value="UI/UX Design">UI/UX Design</option>
+                                        <option value="Graphics Design">Graphics Design</option>
+                                        <option value="Branding">Branding</option>
+                                        <option value="Web Design">Web Design</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-xl-12 mb-3">
+                                <div class="form-group">
+                                    <label class="form-label" for="msg">What Can I Help You...</label>
+                                    <textarea class="form-control" rows="5" type="text" name="msg" id="msg"
+                                        placeholder="Hello, I'd like to enquire about..."></textarea>
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="form-group">
+                                    <input class="btn custom-btn btn-submit" value="Submit" type="submit" id="submit">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-link d-flex align-items-center justify-content-between gap-3 flex-wrap">
+                <div class="">
+                    <label for="">Email</label>
+                    <a href="#">xxxxxxx@gmail.com</a>
+                </div>
+                <div class="">
+                    <label for="">Call Today :</label>
+                    <a href="#">+91 XXXXX XXXXX</a>
+                </div>
+                <div class="">
+                    <label for="">Social :</label>
+                    <div class="social-box d-flex align-items-center gap-2">
+                        <a href="#" class="social-link">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fa-brands fa-behance"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fa-solid fa-basketball"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <p class="copyright-txt mb-0">
+                    &copy; Copyright <span id="year"></span>. All Rights Reserved by Us.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./js/cursor/index.js"></script>
+</body>
+
+<script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    const tl = gsap.timeline({
+        scrollTrigger: {
+            trigger: ".banner-section",
+            start: "1200 1200",
+            end: "+=1800",     // adjust for slower/faster animation
+            scrub: true,       // 🔥 exact scroll sync
+            // pin: true,         // 🔥 keeps section fixed (important)
+            // anticipatePin: 1,
+            markers: false
+        }
+    });
+
+
+    // 🔹 Phase 1 — slight movement (no rotation yet)
+    tl.to(".banner-desk .banner-thumb-move", {
+        y: 200,
+        x: 60,
+        ease: "none"
+    }, 0.1);
+
+
+    // 🔹 Phase 2 — start flip slowly
+    tl.to(".banner-desk .banner-thumb-inner", {
+        rotationY: 90,
+        ease: "none"
+    }, 0.5);
+
+
+    // 🔹 Phase 3 — complete flip
+    tl.to(".banner-desk .banner-thumb-inner", {
+        rotationY: 180,
+        ease: "none"
+    }, 0.7);
+
+
+    // 🔹 Continue diagonal movement
+    tl.to(".banner-desk .banner-thumb-move", {
+        y: 700,
+        x: 300,
+        rotation: 5, // optional slight tilt (premium feel)
+        ease: "none"
+    }, 0.5)
+
+    // 🔹 Continue diagonal movement
+    tl.to(".banner-desk .banner-thumb-move", {
+        y: 700,
+        rotationY: 180,
+        x: 300,
+        rotation: 5, // optional slight tilt (premium feel)
+        ease: "none"
+    }, 2.5);
+
+
+
+
+    (function () {
+        let targetY = window.scrollY;
+        let currentY = window.scrollY;
+        const ease = 0.08; // smoothness
+
+        window.addEventListener("wheel", (e) => {
+            e.preventDefault();
+
+            targetY += e.deltaY;
+            targetY = Math.max(0, Math.min(targetY, document.body.scrollHeight - window.innerHeight));
+        }, { passive: false });
+
+        function smoothScroll() {
+            currentY += (targetY - currentY) * ease;
+            window.scrollTo(0, currentY);
+            requestAnimationFrame(smoothScroll);
+        }
+
+        smoothScroll();
+    })();
+
+    // gsap.registerPlugin(ScrollTrigger);
+    const cards = document.querySelectorAll(".project-block");
+
+    cards.forEach((card, index) => {
+        gsap.to(card, {
+            scale: 0.8,
+            scrollTrigger: {
+                trigger: card,
+                start: "top top+=100",
+                end: "bottom top",
+                scrub: true
+            }
+        });
+    });
+</script>
+
+<script>
+    // Counter
+
+    const counters = document.querySelectorAll(".counter");
+
+    const startCounter = (counter) => {
+        const target = +counter.getAttribute("data-target");
+        let count = 0;
+
+        const updateCounter = () => {
+            const increment = target / 50;
+
+            if (count < target) {
+                count += increment;
+                counter.innerText = Math.ceil(count);
+                requestAnimationFrame(updateCounter);
+            } else {
+                counter.innerText = target;
+            }
+        };
+
+        updateCounter();
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                startCounter(entry.target);
+                // observer.unobserve(entry.target); // run only once
+            }
+        });
+    }, {
+        threshold: 0.5
+    });
+
+    counters.forEach(counter => {
+        observer.observe(counter);
+    });
+</script>
+
+<script>
+    $(".nav-toggler").click(function(){
+        $(this).toggleClass("open");
+        $(".nav-links").slideToggle('fast');
+        $("body").toggleClass("overflow-hidden");
+    });
+
+    const date = new Date();
+    const year = date.getFullYear();
+
+    document.getElementById("year").innerHTML = year;
+</script>
+</html>
